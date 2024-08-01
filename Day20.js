@@ -3,8 +3,8 @@
 /* Activity 1: Understanding LocalStorage */
 
 //Task 1: Write a script to save a string value to localStorage and retrieve it. Log the retrieved value.
-// localStorage.setItem("name", "John Doe");
-// console.log(localStorage.getItem("name")); // Output: John Doe
+localStorage.setItem("name", "John Doe");
+console.log(localStorage.getItem("name")); // Output: John Doe
 
 //Task 2: Write a script to save an object to localStorage by converting to a JSON string. Retrieve and parse object. then log it.
 const person = { name: "John Doe", age: 30 };
